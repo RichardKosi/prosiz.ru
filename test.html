@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+<style>
+	.ft
+{
+  position: relative;
+  left: 100px;
+  top: 50px;
+  height: 200px;
+  width: 600px;
+  background: red;
+  overflow: hidden;
+}
+.st
+{
+	left:0px;
+  height: 200px;
+  background: blue;
+	position: relative;
+transition: left 1s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+}
+.th1,.th2,.th3
+{
+  height: 200px;
+  width: 600px;
+  float: left;
+}
+	.th1
+{
+	background: blue;
+}
+	.th2
+{
+	background: red;
+}
+	.th3
+{
+background: yellow;
+}
+	</style>
+</head>
+
+<body>
+<div class='ft'>
+  <div class='st'>
+    <div class='th1'></div><div class='th2'></div><div class='th3'></div>
+  </div>
+</div>
+<script src="/js/jquery-3.3.1.js"></script>
+<script>
+	$(".st").click(function(f){
+	$(this).css('left', '-600px');
+});</script>
+</body>
+</html>

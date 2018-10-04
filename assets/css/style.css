@@ -1,0 +1,97 @@
+html, body{
+	font-size: 92%;
+}
+
+nav.top{
+	background: #FFF;
+	border-bottom: 1px solid rgb(210, 214, 210);
+}
+
+a {
+	color: #428BCA;
+}
+
+a:hover {
+	color: #428BCA;
+}
+
+.nav > li > a{
+	font-size: large;
+}
+
+hr{
+	border-bottom: 1px solid rgb(210, 214, 210);
+}
+
+section{
+	margin-top: 5em;
+}
+
+footer{
+	border-top: 1px solid rgba(210, 214, 210, 0.76);
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.cent{
+	text-align: center;
+}
+
+.toplabel{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.toppost{
+	margin-top: 1em;
+}
+
+.mct-post{
+	border-bottom: 1px dotted rgb(210, 214, 210);
+}
+
+.large{
+	font-size: large;
+	background: #DDD;
+	padding: .36em;
+}
+
+.cent{
+	margin-top: 8%;
+}
+
+.ava{
+	margin-left: -30px;
+}
+
+.post{
+	font-size: large;
+	color: #777;
+}
+
+.modal{
+	width: 100%;
+	height: 80%;
+	position: fixed;
+	margin-top: 75px;
+	border: 2px solid #999;
+	z-index: 10;
+	background: #FFF;
+}
+
+#p-link{
+	position: absolute;
+	display: none;
+	background: #F7F7F7;
+	color: #428BCA;
+	padding: 10px;
+	border: 1px solid #428BCA;
+	width: 380px;
+	max-height: 550px;
+}
+
+.banner {
+	background: url(/assets/banner.jpg) left top no-repeat;
+	background-size: cover;
+	height: 280px;
+}

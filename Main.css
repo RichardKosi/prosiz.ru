@@ -1,0 +1,347 @@
+@charset "utf-8";
+@import url(/raleway-extralight.ttf);
+@import url(/raleway-semibold.ttf);
+#LeftMenu {
+	vertical-align: middle;
+	font-family: 'Raleway ExtraLight', arial;
+	color: rgba(184,197,212,1);
+}
+#LeftMenu:hover {
+	background: linear-gradient(to left, rgba(184,197,212,0) 0%, rgba(184,197,212,0.1) 20%, rgba(184,197,212,0.1) 100%);
+	color: #FFFFFF;
+}
+#RightMenu {
+	vertical-align: middle;
+	font-family: 'Raleway ExtraLight', arial;
+	color: rgba(184,197,212,1);
+}
+#RightMenu:hover {
+	background: linear-gradient(to right, rgba(184,197,212,0) 0%, rgba(184,197,212,0.1) 20%, rgba(184,197,212,0.1) 100%);
+	color: #FFFFFF;
+}
+header .header .Middle {
+	display: table-cell;
+	width: 100%;
+	background: linear-gradient(to right, rgba(184,197,212,0) 0%, rgba(184,197,212,0.15) 20%, rgba(184,197,212,0.2) 50%, rgba(184,197,212,0.15) 80%, rgba(184,197,212,0) 100%);
+}
+header .header {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+header .gradient-line {
+	background: rgba(184,197,212,0.5);
+	background: -moz-linear-gradient(0deg, rgba(184,197,212,0) 0%, rgba(184,197,212,1) 50%, rgba(184,197,212,0) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(184,197,212,0) 0%, rgba(184,197,212,1) 50%, rgba(184,197,212,0) 100%);
+	background: -o-linear-gradient(0deg, rgba(184,197,212,0) 0%, rgba(184,197,212,1) 50%, rgba(184,197,212,0) 100%);
+	background: -ms-linear-gradient(0deg, rgba(184,197,212,0) 0%, rgba(184,197,212,1) 50%, rgba(184,197,212,0) 100%);
+	background: linear-gradient(90deg, rgba(184,197,212,0) 0%, rgba(184,197,212,1) 50%, rgba(184,197,212,0) 100%);
+	/*border-image: linear-gradient(to right, rgba(144,144,144,0) 0%, rgba(144,144,144,1) 50%, rgba(144,144,144,0) 100%);*/
+	/*background: linear-gradient(to right, rgba(144,144,144,1) 0%, rgba(144,144,144,0) 50%, rgba(144,144,144,1) 100%);*/
+	content: "";
+	display: block;
+	/* Вместо толщины */
+	height: 3px;
+	width: 100%;
+}
+header .header .Middle .logo {
+	font-size: xx-large;
+	text-align: center;
+	font-weight: bold;
+	width: 200px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 5px auto;
+}
+header .header .button {
+	text-align: center;
+	display: table-cell;
+	min-width: 300px;
+}
+.Menu {
+	width: 300px;
+	background: rgb(52, 60, 70);
+	overflow-x: hidden;
+	color: #b7c4d3;
+}
+#RM {
+	float: right;
+}
+#LM {
+	float: left;
+}
+#header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 53px;
+	position: absolute;
+	background-color: #131A22;
+}
+body {
+	background-color: #0e171a;
+	background-color: #131a22;
+}
+#BottomMenu{
+	width: 60px;
+    height: 110px;
+	margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+	border-radius: 30px;
+    background-color: #313942;
+	transition: height 0.5s, width 0.5s;
+}
+#BottomMenuSettings{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 60px;
+	right: 0px;
+    bottom: 0px;
+	border-radius: 20px;
+	background-image: url(img/settings-work-tool.png);
+	background-size: contain;
+}
+#BottomMenuSettings:hover{
+	background-color: #DF1616;
+}
+#BottomMenuGuide{
+	position: absolute;
+	background-image: url(img/question-mark.png);
+	background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+	right: 0px;
+    bottom: 0px;
+	border-radius: 20px;
+}
+#BottomMenuGuide:hover{
+	background-color: #DF1616;
+}
+#footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	background: linear-gradient(to top, rgba(144,144,144,1) 0%, rgba(144,144,144,0) 100%);
+}
+#FindBlock .input {
+	margin: auto 5px auto 5px;
+    width: -webkit-fill-available;
+}
+#FindBlock .input input {
+    width: -webkit-fill-available;
+}
+.Form_new_C label {
+	float: left;
+}
+.list {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+}
+.list li {
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	border: 1px solid #BCBCBC;
+}
+.list li:hover {
+	vertical-align: middle;
+	background-color: #9FD3FF;
+}
+.list_item {
+	overflow: hidden;
+}
+.dlist {
+	float: left;
+	padding-left: 5px;
+	overflow-x: hidden;
+}
+.dlist input {
+	width: 200px;
+}
+.B_new_C1 {
+	background-color: #603334;
+}
+.label {
+	width: 67px;
+	display: inline-block;
+	margin: auto 5px auto 2px;
+}
+.input {
+	display: inline-block;
+}
+.lli_of {
+	display: inline-block;
+	max-height: 21px;
+}
+.lli_in {
+	display: inline-block;
+	max-height: 21px;
+}
+.lli {
+	display: inline-block;
+}
+#select_vertex {
+	position: absolute;
+	top: auto;
+	left: auto;
+}
+/*00000000000000000000000000000*/
+.del {
+	float: right;
+	margin: auto 2px auto 1px;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+}
+.apply {
+	/*float: right;*/
+	margin: auto 1px auto 2px;
+	width: 20px;
+	height: 20px;
+	background-color: lime;
+}
+.refresh {
+	float: right;
+	margin: auto 1px auto 2px;
+	width: 20px;
+	height: 20px;
+	background-color: green;
+}
+/*000000000000000000000000000000000*/
+
+
+/*%%% Левое меню %%%*/
+.Menu_Sub_Block {
+	border-top: 3px ridge #BCBCBC;
+}
+.Menu_Sub_Element {
+}
+.tlabel {
+	padding: auto;
+	text-align: center;
+}
+.list .label label {
+	margin: auto 2px;
+	display: block;
+}
+.list {
+	margin: 2px auto;
+}
+.status {
+	height: 20px;
+	
+	background-color: #5B82A7;
+	margin: auto;
+}
+/*### Левое меню ###*/
+
+
+/*%%% Элемент списка в левом меню %%%*/
+.list_item {
+	margin: 2px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.id {
+	display: none;
+}
+.input {
+	margin: auto 2px auto 5px;
+}
+.create {
+	margin: auto 2px;
+	width: 21px;
+	height: 21px;
+	background-color: #a5b1bf;
+	border-radius: 2px;
+	background-image: url(buttonsG.png);
+	background-position: 0px -21px;
+}
+.create:hover {
+	background-position: -21px -21px;
+}
+.apply {
+	margin: auto 2px;
+	width: 21px;
+	height: 21px;
+	background-color: #a5b1bf;
+	border-radius: 2px;
+	background-image: url(buttonsG.png);
+	background-position: 0px 0px;
+}
+.apply:hover {
+	background-position: -21px 0px;
+}
+.bisect {
+	margin: auto 2px;
+	width: 21px;
+	height: 21px;
+	background-color: #a5b1bf;
+	background-repeat: no-repeat;
+	border-radius: 2px;
+	background-image: url(buttonsG.png);
+	background-position: 0px -42px;
+}
+.bisect:hover {
+	background-position: -21px -42px;
+}
+.collapse {
+	margin: auto 2px;
+	width: 21px;
+	height: 21px;
+	background-color: #a5b1bf;
+	background-repeat: no-repeat;
+	border-radius: 2px;
+	background-image: url(buttonsG.png);
+	background-position: 0px -63px;
+}
+.collapse:hover {
+	background-position: -21px -63px;
+}
+.delete {
+	margin: auto 2px;
+	width: 21px;
+	height: 21px;
+	background-color: #a5b1bf;
+	border-radius: 2px;
+	background-image: url(buttonsG.png);
+	background-position: 0px -84px;
+}
+.delete:hover {
+	background-position: -21px -84px;
+}
+/*### Элемент списка в левом меню ###*/
+
+.noselect, .Menu label, header .header {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.Menu_Button {
+	padding: 1px;
+	text-align: center;
+	border-bottom: solid 2px;
+	border-bottom-color: transparent;
+}
+.Menu_Button:hover {
+	text-align: center;
+	background: linear-gradient(to right, rgba(144,144,144,0) 0%, rgba(144,144,144,1) 50%, rgba(144,144,144,0) 100%);
+	border-image: linear-gradient(to right, rgba(144,144,144,0) 0%, rgba(200,200,200,1) 50%, rgba(144,144,144,0) 100%) 3 / 0px 0px 3px;
+	color: #FFFFFF;
+}
